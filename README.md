@@ -1,4 +1,4 @@
-# Real-time Object Detection [darknet_ros]
+# Real-time Object Detection for ROS 
 
 ![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
 
@@ -78,4 +78,20 @@ Publishes an array of bounding boxes that gives information of the position and 
 * __detection_image ([sensor_msgs::Image])__
 
 Publishes an image of the detection image including the bounding boxes.
+
+# Citing
+
+YOLOv3 :
+
+    @article{yolov3,
+    title={YOLOv3: An Incremental Improvement},
+    author={Redmon, Joseph and Farhadi, Ali},
+    journal = {arXiv},
+    year={2018}
+    }
+# Reference
+
+@mbjelonic darknet_ros [GitHub](https://github.com/leggedrobotics/darknet_ros)
+
+
 
