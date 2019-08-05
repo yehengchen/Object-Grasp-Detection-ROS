@@ -2,13 +2,13 @@
 
 ![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
 
-# Development Environment
+## Development Environment
 
 - Ubuntu 16.04.2 
 - ROS Kinetic
 - OpenCV
 
-# Quick start
+## Quick start
 
 In order to install darknet_ros, clone the latest version using SSH (see how to set up an SSH key) from this repository into your catkin workspace and compile the package using ROS.
 
@@ -85,7 +85,7 @@ Publishes an array of bounding boxes that gives information of the position and 
 
 Publishes an image of the detection image including the bounding boxes.
 
-# Citing
+## Citing
 
 YOLOv3 :
 
@@ -95,7 +95,7 @@ YOLOv3 :
     journal = {arXiv},
     year={2018}
     }
-# Reference
+## Reference
 
 @mbjelonic darknet_ros [GitHub](https://github.com/leggedrobotics/darknet_ros)
 
