@@ -23,7 +23,7 @@ To maximize performance, make sure to build in Release mode. You can specify the
     catkin_make -DCMAKE_BUILD_TYPE=Release
 
 
-### Download weights
+### Download weights：
 
 The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in the CMakeLists.txt file. If you need to download them again, go into the weights folder and download the two pre-trained weights from the COCO data set:
 
@@ -45,14 +45,14 @@ The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in t
       wget http://pjreddie.com/media/files/yolov3-voc.weights
 
 
-### Use your own detection objects
+### Use your own detection objects:
 
 In order to use your own detection objects you need to provide your weights and your cfg file inside the directories:
 
     catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
     catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/cfg/
 
-### Running Node
+### Running Node:
 
 __Launch darknet_ros with usb_cam:__
 
