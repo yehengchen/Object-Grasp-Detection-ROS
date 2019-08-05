@@ -40,16 +40,21 @@ In order to use your own detection objects you need to provide your weights and 
     catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
     catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/cfg/
 
-## Run launch file
+## Running Node
 
-    roscore
+__Launch darknet_ros with usb_cam:__
 
     roslaunch usb_cam usb_cam-test.launch
 
     roslaunch darknet_ros darknet_ros.launch
+
     roslaunch darknet_ros yolo_v3.launch 
-  
-    rostopic echo /darknet_ros/bounding_boxes 
+
+__The node will publish the following 3 topics__
+    
+    rostopic echo /darknet_ros/bounding_boxes
+    rostopic echo /darknet_ros/found_object
+    rostopic echo /darknet_ros/detection_image
 
 
 ## Node
@@ -57,15 +62,10 @@ In order to use your own detection objects you need to provide your weights and 
 ROS related parameters
 
 You can change the names and other parameters of the publishers, subscribers and actions inside darkned_ros/config/ros.yaml.
-Subscribed Topics
 
-    /camera_reading ([sensor_msgs/Image])
+__Published Topics__
 
-    The camera measurements.
-
-Published Topics
-
-    * object_detector ([std_msgs::Int8])
+    * found_object ([std_msgs::Int8])
 
     Publishes the number of detected objects.
 
