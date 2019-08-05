@@ -16,7 +16,7 @@ In order to install darknet_ros, clone the latest version using SSH (see how to 
 
     cd catkin_workspace/src
     git clone https://github.com/pjreddie/darknet.git
-    git clone https://github.com/yehengchen/yolov3_ros.git
+    git clone https://github.com/yehengchen/YOLOv3_ROS.git
     cd ../
     
 To maximize performance, make sure to build in Release mode. You can specify the build type by setting
