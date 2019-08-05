@@ -8,6 +8,8 @@
 - ROS Kinetic
 - OpenCV
 
+***
+
 ## Quick start
 
 In order to install darknet_ros, clone the latest version using SSH (see how to set up an SSH key) from this repository into your catkin workspace and compile the package using ROS.
@@ -19,7 +21,9 @@ In order to install darknet_ros, clone the latest version using SSH (see how to 
 To maximize performance, make sure to build in Release mode. You can specify the build type by setting
 
     catkin_make -DCMAKE_BUILD_TYPE=Release
-    
+
+***
+
 ## Download weights
 
 The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in the CMakeLists.txt file. If you need to download them again, go into the weights folder and download the two pre-trained weights from the COCO data set:
@@ -41,12 +45,16 @@ The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in t
       wget http://pjreddie.com/media/files/yolov3.weights
       wget http://pjreddie.com/media/files/yolov3-voc.weights
 
+***
+
 ## Use your own detection objects
 
 In order to use your own detection objects you need to provide your weights and your cfg file inside the directories:
 
     catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
     catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/cfg/
+
+***
 
 ## Running Node
 
@@ -64,6 +72,7 @@ __The node will publish the following 3 topics__
     rostopic echo /darknet_ros/found_object
     rostopic echo /darknet_ros/detection_image
 
+***
 
 ## Node
 
@@ -84,6 +93,8 @@ Publishes an array of bounding boxes that gives information of the position and 
 * __detection_image ([sensor_msgs::Image])__
 
 Publishes an image of the detection image including the bounding boxes.
+
+***
 
 ## Citing
 
