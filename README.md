@@ -1,4 +1,4 @@
-# yolov3_ros
+# Real-time Yolov3 object detection [darknet_ros]
 
 ![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
 
