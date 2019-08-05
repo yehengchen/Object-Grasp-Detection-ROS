@@ -12,26 +12,26 @@ To maximize performance, make sure to build in Release mode. You can specify the
 
     catkin_make -DCMAKE_BUILD_TYPE=Release
     
-Download weights
+## Download weights
 
 The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in the CMakeLists.txt file. If you need to download them again, go into the weights folder and download the two pre-trained weights from the COCO data set:
 
     cd catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
 
-* COCO data set (Yolo v2):
+* __COCO data set (Yolo v2):__
 
-        wget http://pjreddie.com/media/files/yolov2.weights
-        wget http://pjreddie.com/media/files/yolov2-tiny.weights
+      wget http://pjreddie.com/media/files/yolov2.weights
+      wget http://pjreddie.com/media/files/yolov2-tiny.weights
 
-* VOC data set (Yolo v2):
+* __VOC data set (Yolo v2):__
         
-        wget http://pjreddie.com/media/files/yolov2-voc.weights
-        wget http://pjreddie.com/media/files/yolov2-tiny-voc.weights
+      wget http://pjreddie.com/media/files/yolov2-voc.weights
+      wget http://pjreddie.com/media/files/yolov2-tiny-voc.weights
 
-* Yolov3:
+* __Yolov3:__
         
-        wget http://pjreddie.com/media/files/yolov3.weights
-        wget http://pjreddie.com/media/files/yolov3-voc.weights
+      wget http://pjreddie.com/media/files/yolov3.weights
+      wget http://pjreddie.com/media/files/yolov3-voc.weights
 
 ## Use your own detection objects
 
