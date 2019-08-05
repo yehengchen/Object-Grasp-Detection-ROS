@@ -65,15 +65,15 @@ You can change the names and other parameters of the publishers, subscribers and
 
 __Published Topics__
 
-    * found_object ([std_msgs::Int8])
+* __found_object ([std_msgs::Int8])__
 
-    Publishes the number of detected objects.
+Publishes the number of detected objects.
 
-    * bounding_boxes ([darknet_ros_msgs::BoundingBoxes])
+* __bounding_boxes ([darknet_ros_msgs::BoundingBoxes])__
 
-    Publishes an array of bounding boxes that gives information of the position and size of the bounding box in pixel coordinates.
+Publishes an array of bounding boxes that gives information of the position and size of the bounding box in pixel coordinates.
 
-    * detection_image ([sensor_msgs::Image])
+* __detection_image ([sensor_msgs::Image])__
 
-    Publishes an image of the detection image including the bounding boxes.
+Publishes an image of the detection image including the bounding boxes.
 
