@@ -1,5 +1,7 @@
 # yolov3_ros
 
+![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
+
 # Quick start
 
 In order to install darknet_ros, clone the latest version using SSH (see how to set up an SSH key) from this repository into your catkin workspace and compile the package using ROS.
