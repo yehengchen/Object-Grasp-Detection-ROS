@@ -18,17 +18,20 @@ The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in t
 
     cd catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
 
-    COCO data set (Yolo v2):
-    wget http://pjreddie.com/media/files/yolov2.weights
-    wget http://pjreddie.com/media/files/yolov2-tiny.weights
+* COCO data set (Yolo v2):
 
-    VOC data set (Yolo v2):
-    wget http://pjreddie.com/media/files/yolov2-voc.weights
-    wget http://pjreddie.com/media/files/yolov2-tiny-voc.weights
+        wget http://pjreddie.com/media/files/yolov2.weights
+        wget http://pjreddie.com/media/files/yolov2-tiny.weights
 
-    Yolo v3:
-    wget http://pjreddie.com/media/files/yolov3.weights
-    wget http://pjreddie.com/media/files/yolov3-voc.weights
+* VOC data set (Yolo v2):
+        
+        wget http://pjreddie.com/media/files/yolov2-voc.weights
+        wget http://pjreddie.com/media/files/yolov2-tiny-voc.weights
+
+* Yolov3:
+        
+        wget http://pjreddie.com/media/files/yolov3.weights
+        wget http://pjreddie.com/media/files/yolov3-voc.weights
 
 ## Use your own detection objects
 
