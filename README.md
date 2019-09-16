@@ -47,6 +47,7 @@ The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in t
 
 
 ### Use your own detection objects:
+__How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)__
 
 In order to use your own detection objects you need to provide your weights and your cfg file inside the directories:
 
