@@ -9,10 +9,6 @@
 - OpenCV
 
 ***
-- Ubuntu 18.04
-- ROS Melodic
-
-***
 
 ## Quick start
 
