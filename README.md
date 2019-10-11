@@ -1,6 +1,5 @@
 # Real-time Object Detection for ROS 
-
-![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
+![](https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png)
 
 ## Development Environment
 
@@ -9,6 +8,7 @@
 - OpenCV
 
 ***
+![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
 
 ## Quick start
 
