@@ -3,8 +3,8 @@
 
 ## Development Environment
 
-- Ubuntu 16.04.2 
-- ROS Kinetic
+- Ubuntu 16.04 / 18.04
+- ROS Kinetic / Melodic
 - OpenCV
 
 ***
