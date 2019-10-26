@@ -3,9 +3,9 @@
 
 ## Development Environment
 
-- Ubuntu 16.04 / 18.04
-- ROS Kinetic / Melodic
-- OpenCV
+- __Ubuntu 16.04 / 18.04__
+- __ROS Kinetic / Melodic__
+- __OpenCV__
 
 ***
 ![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
