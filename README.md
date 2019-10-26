@@ -96,8 +96,6 @@ Publishes an image of the detection image including the bounding boxes.
 
 ## Citing
 
-YOLOv3 :
-
     @article{yolov3,
     title={YOLOv3: An Incremental Improvement},
     author={Redmon, Joseph and Farhadi, Ali},
