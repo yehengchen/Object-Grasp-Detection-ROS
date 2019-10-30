@@ -1,5 +1,5 @@
-# Real-time Object Detection for ROS 
-![](https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png)
+# Real-time Object Detection for ROS
+<img src="https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png" width="80%" height="80%">
 
 ## Development Environment
 
