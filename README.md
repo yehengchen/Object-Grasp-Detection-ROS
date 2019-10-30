@@ -8,7 +8,7 @@
 - __OpenCV__
 
 ***
-![](https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif)
+![](https://github.com/yehengchen/YOLOv3-ROS/blob/master/darknet_ros/yolo_network_config/weights/output.gif)
 
 ## Quick start
 
