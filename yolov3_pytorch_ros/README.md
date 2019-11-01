@@ -15,7 +15,10 @@ Navigate to your catkin workspace and run:
 ```
 $ catkin build yolov3_pytorch_ros
 ```
-
+## Launch yolov3_pytorch_ros node
+```
+$ roslaunch yolov3_pytorch_ros detector.launch
+```
 ## Basic Usage
 1. First, make sure to put your weights in the [models](models) folder. For the **training process** in order to use custom objects, please refer to the original [YOLO page](https://pjreddie.com/darknet/yolo/). As an example, to download pre-trained weights from the COCO data set, go into the [models](models) folder and run:
 ```
