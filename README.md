@@ -10,7 +10,7 @@
 ## Real-time Screw Rotation Detection for ROS
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="75%" height="75%">
 
-__Gazeno Real-time Screw Rotation Detection - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_pytorch_ros)__
+__Gazeno Real-time Screw Rotation Detection - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_grasp_detection_ros)__
 
 
 ***
