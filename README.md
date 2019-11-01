@@ -1,6 +1,6 @@
 # YOLOv3-ROS
 
-## Development Environment
+### Development Environment
 
 - __Ubuntu 16.04 / 18.04__
 - __ROS Kinetic / Melodic__
@@ -17,7 +17,7 @@ __[Screw Grasp Detection](https://github.com/yehengchen/YOLOv3-ROS/tree/master/y
 ## Real-time Screw Detection for ROS
 ![](https://github.com/yehengchen/YOLOv3-ROS/blob/master/darknet_ros/yolo_network_config/weights/output.gif)
 
-## Quick start
+### Quick start
 
 In order to install darknet_ros, clone the latest version using SSH (see how to set up an SSH key) from this repository into your catkin workspace and compile the package using ROS.
 
@@ -53,7 +53,7 @@ The yolo-voc.weights and tiny-yolo-voc.weights are downloaded automatically in t
       wget http://pjreddie.com/media/files/yolov3-voc.weights
 
 
-### Use your own detection objects:
+## Use your own detection objects:
 __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)__
 
 In order to use your own detection objects you need to provide your weights and your cfg file inside the directories:
