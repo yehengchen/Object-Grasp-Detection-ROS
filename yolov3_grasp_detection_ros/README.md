@@ -1,4 +1,4 @@
-# YOLOv3_Rotation_Detection_ROS
+# YOLOv3_Rotation_Grasp_Detection_ROS
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/rotation_detection.png" width="75%" height="75%"><img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="80%" height="80%">
 
 ## Prerequisites
