@@ -15,7 +15,7 @@ Navigate to your catkin workspace and run:
 ```
 $ catkin build yolov3_pytorch_ros
 ```
-## Launch yolov3_pytorch_ros node
+## Start yolov3_pytorch_ros node
 ```
 $ roslaunch yolov3_pytorch_ros detector.launch
 ```
