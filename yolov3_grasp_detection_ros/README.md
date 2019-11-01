@@ -1,7 +1,5 @@
-# yolov3_pytorch_ros
-<img src="https://github.com/yehengchen/YOLOv3-ROS/blob/master/yolov3_pytorch_ros/models/rotation_screw.png" width="80%" height="70%">
-
-
+# YOLOv3_Grasp_Detection_ROS
+<img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="80%" height="80%">
 
 ## Prerequisites
 To download the prerequisites for this package (except for ROS itself), navigate to the package folder and run:
