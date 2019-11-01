@@ -1,4 +1,4 @@
-# yolov3_pytorch_ros - screw_grasp_detection
+# screw_grasp_detection
 
 <img src="https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png" width="80%" height="70%"><img src="https://github.com/yehengchen/YOLOv3-ROS/blob/master/yolov3_pytorch_ros/models/rotation_screw.png" width="80%" height="70%">
 
