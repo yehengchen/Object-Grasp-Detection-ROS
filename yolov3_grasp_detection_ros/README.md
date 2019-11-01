@@ -22,7 +22,7 @@ wget http://pjreddie.com/media/files/yolov3.weights
 
 2. Modify the parameters in the [launch file](launch/detector.launch) and launch it. You will need to change the `image_topic` parameter to match your camera, and the `weights_name`, `config_name` and `classes_name` parameters depending on what you are trying to do.
 
-## Start yolov3_pytorch_ros node
+## Start yolov3_grasp_detection_ros node
 ```
 $ roslaunch yolov3_grasp_detection_ros detector.launch
 ```
