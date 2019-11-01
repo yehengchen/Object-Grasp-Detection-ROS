@@ -10,7 +10,8 @@ $ sudo pip install -r requirements.txt
 ## Installation
 Navigate to your catkin workspace and run:
 ```
-$ catkin build yolov3_pytorch_ros
+$ catkin build yolov3_grasp_detection_ros
+
 ```
 
 ## Basic Usage
@@ -20,6 +21,12 @@ wget http://pjreddie.com/media/files/yolov3.weights
 ```
 
 2. Modify the parameters in the [launch file](launch/detector.launch) and launch it. You will need to change the `image_topic` parameter to match your camera, and the `weights_name`, `config_name` and `classes_name` parameters depending on what you are trying to do.
+
+## Start yolov3_pytorch_ros node
+```
+$ roslaunch yolov3_grasp_detection_ros detector.launch
+```
+
 
 ### Node parameters
 
@@ -70,16 +77,3 @@ wget http://pjreddie.com/media/files/yolov3.weights
 * **`detections_image_topic`** (sensor_msgs::Image)
 
     Published topic with the detected bounding boxes on top of the image (only published if `publish_image` is set to true).
-
-## Citing
-
-The YOLO methods used in this software are described in the paper: [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640).
-
-If you are using this package, please add the following citation to your publication:
-
-    @misc{vasilopoulos_pavlakos_yolov3ros_2019,
-      author = {Vasileios Vasilopoulos and Georgios Pavlakos},
-      title = {{yolov3_pytorch_ros}: Object Detection for {ROS} using {PyTorch}},
-      howpublished = {\url{https://github.com/vvasilo/yolov3_pytorch_ros}},
-      year = {2019},
-    }
