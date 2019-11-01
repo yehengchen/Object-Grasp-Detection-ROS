@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Camera topic and weights, config and classes files -->
+    <arg name="image_topic"	                default="/camera/color/image_raw"/>  <!-- /arm_sensor/camera/image_raw /camera/color/image_raw-->
+    <arg name="weights_name"	            default="yolov3-cai-tiny_final.weights"/>
+    <arg name="config_name"	                default="yolov3-cai-tiny.cfg"/>
+    <arg name="classes_name"	            default="screw.names"/>
+
+    <!-- Published topics -->
+    <arg name="publish_image"	            default="true"/>
+    <arg name="detected_objects_topic"      default="detected_objects_in_image"/>
+    <arg name="detections_image_topic"      default="detections_image_topic"/>
+
+    <!-- Detection confidence -->
+    <arg name="confidence"                  default="0.6"/>
+
+    <!-- Node -->
+    <node name="detector_manager" pkg="yolov3_grasp_detection_ros" type="detector.py" output="screen" respawn="true">
+        <param name="image_topic"               value="$(arg image_topic)"/>
+        <param name="weights_name"              value="$(arg weights_name)"/>
+        <param name="config_name"               value="$(arg config_name)"/>
+        <param name="classes_name"              value="$(arg classes_name)"/>
+        <param name="publish_image"             value="$(arg publish_image)"/>
+        <param name="detected_objects_topic"    value="$(arg detected_objects_topic)"/>
+        <param name="detections_image_topic"    value="$(arg detections_image_topic)"/>
+        <param name="confidence"                value="$(arg confidence)"/>
+    </node>
+</launch>
