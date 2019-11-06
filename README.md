@@ -1,10 +1,15 @@
 # YOLOv3-ROS
 
-### Development Environment
+## Development Environment
 
 - __Ubuntu 16.04 / 18.04__
 - __ROS Kinetic / Melodic__
 - __OpenCV__
+
+## ROS Installation Options
+[ROS (Robot Operating System)](http://wiki.ros.org)
+* __Ubuntu install of ROS [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)__
+* __Ubuntu install of ROS [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)__
 
 ***
 ## Real-time Screw Rotation Grasp Detection With ROS
