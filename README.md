@@ -24,7 +24,7 @@ __Gazebo Real-time Screw Rotation Detection - [[Link]](https://github.com/yeheng
 
 __Gazebo Real-time Grasp Detection - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_pytorch_ros)__
 
-__Parts-Arrangement-Robot - [[Link]](https://github.com/Kminseo/Parts-Arrangement-Robot)_
+__Parts-Arrangement-Robot - [[Link]](https://github.com/Kminseo/Parts-Arrangement-Robot)__
 
 ***
 ## Real-time Screw Detection With ROS
@@ -143,16 +143,24 @@ $ roslaunch yolov3_pytorch_ros detector.launch
   cd ~/catkin_ws/src/
   ```
   
-  2) __pkg download__
+  2) __Download realsense-ros pkg__
   	
-  	```
-  	git clone https://github.com/IntelRealSense/realsense-ros.git
-  	cd realsense-ros/
-  	git checkout `git tag | sort -V | grep -P "^\d+\.\d+\.\d+" | tail -1`
-  	cd ..
-  	```
+  ```
+  git clone https://github.com/IntelRealSense/realsense-ros.git
+  cd realsense-ros/
+  git checkout `git tag | sort -V | grep -P "^\d+\.\d+\.\d+" | tail -1`
+  cd ..
+  ```
   
-  3) __패키지 설치__
+  3) __Download ddynamic_reconfigure__
+  
+  ```
+  cd src
+  git clone https://github.com/pal-robotics/ddynamic_reconfigure/tree/kinetic-devel
+  cd ..
+  ```
+  
+  4) __Pkg installation__
   
   ```
   catkin_init_workspace
@@ -164,20 +172,13 @@ $ roslaunch yolov3_pytorch_ros detector.launch
   source ~/.bashrc
   ```
   
-  4) __ddynamic_reconfigure 에러나면 (아래 실행 후 다시 3번으로)__
-  
-  ```
-  cd src
-  git clone https://github.com/pal-robotics/ddynamic_reconfigure/tree/kinetic-devel
-  cd ..
-  ```
-  
-  5) D435 실행하기
+
+  5) __Run D435 node__
   ```
   roslaunch realsense2_camera rs_camera.launch
   ```
   
-  6) Run rviz testing
+  6) __Run rviz testing__
 
   ```
   rosrun rviz rvzi
