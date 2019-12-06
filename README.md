@@ -189,7 +189,7 @@ $ roslaunch yolov3_pytorch_ros detector.launch
 # How to train (to detect your custom objects)
 
 __Training YOlOv3:__
-- __[[yolov3]](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/OneStage/yolo/yolov3)__
+- __[[How to make custom dataset for yolov3]](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/OneStage/yolo/yolov3)__
 
 ### Download the dakrnet source code
     git clone https://github.com/pjreddie/darknet
