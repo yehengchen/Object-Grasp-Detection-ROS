@@ -114,7 +114,7 @@ $ roslaunch yolov3_pytorch_ros detector.launch
     
 ---
 # Ubuntu-18.04 Realsense D435
-* ### 아래 주소의 Installing the packages 항목을 보고 설치
+* ### The steps are described in bellow documentation
   1) [IntelRealSense -Linux Distribution ](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)
   
   ```
@@ -135,7 +135,7 @@ $ roslaunch yolov3_pytorch_ros detector.launch
   
   ```
   
-* ### Install Realsense ROS 
+* ### Installing Realsense-ros 
   1) __catkin workspace__
   
   ```
