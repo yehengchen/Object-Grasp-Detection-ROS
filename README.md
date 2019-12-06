@@ -115,7 +115,7 @@ $ roslaunch yolov3_pytorch_ros detector.launch
 ---
 # Ubuntu-18.04 Realsense D435
 * ### The steps are described in bellow documentation
-  1) [IntelRealSense -Linux Distribution ](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)
+  __[[IntelRealSense -Linux Distribution]](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)__
   
   ```
   
