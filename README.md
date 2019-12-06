@@ -23,6 +23,7 @@ __Gazebo Real-time Screw Rotation Detection - [[Link]](https://github.com/yeheng
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/grasp_detection.gif" width="75%" height="75%">
 
 __Gazebo Real-time Grasp Detection - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_pytorch_ros)__
+
 __Parts-Arrangement-Robot - [[Link]](https://github.com/Kminseo/Parts-Arrangement-Robot)_
 
 ***
