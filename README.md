@@ -277,9 +277,9 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
   backup = /home/cai/workspace/yolov3/backup/
   ```
 
-#####4. Put image-files (.jpg) of your objects in the directory `path_to/yolov3/JPEGImages `
+##### 4. Put image-files (.jpg) of your objects in the directory `path_to/yolov3/JPEGImages `
 
-#####5. You should label each object on images from your dataset: [[LabelImg]](https://github.com/tzutalin/labelImg) is a graphical image annotation tool
+##### 5. You should label each object on images from your dataset: [[LabelImg]](https://github.com/tzutalin/labelImg) is a graphical image annotation tool
 
 It will create `.txt`-file for each `.jpg`-image-file - in the same directory and with the same name, but with `.txt`-extension, and put to file: object number and object coordinates on this image, for each object in new line: 
 
@@ -300,7 +300,7 @@ It will create `.txt`-file for each `.jpg`-image-file - in the same directory an
   1 0.420312 0.395833 0.140625 0.166667
   ```
 
-#####6. Create file `obj_train.txt` & `obj_test.txt` in directory `path_to/yolov3/`, with filenames of your images, each filename in new line,for example containing:
+##### 6. Create file `obj_train.txt` & `obj_test.txt` in directory `path_to/yolov3/`, with filenames of your images, each filename in new line,for example containing:
 
   ```
   path_to/yolov3/JPEGImages/img1.jpg
@@ -309,20 +309,20 @@ It will create `.txt`-file for each `.jpg`-image-file - in the same directory an
   ```
 
 
-#####7. Download pre-trained weights for the convolutional layers (154 MB): https://pjreddie.com/media/files/darknet53.conv.74 and put to the directory `path_to/darknet/`
+##### 7. Download pre-trained weights for the convolutional layers (154 MB): https://pjreddie.com/media/files/darknet53.conv.74 and put to the directory `path_to/darknet/`
 
 
 	wget https://pjreddie.com/media/files/darknet53.conv.74
 	
 
-#####8. Start training by using the command line:
+##### 8. Start training by using the command line:
 
 	./darknet detector train [path to .data file] [path to .cfg file] [path to pre-taining weights-darknet53.conv.74]
 	
 	[visualization]
 	./darknet detector train path_to/yolov3/cfg/obj.data path_to/yolov3/cfg/yolov3.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log
 
-#####9. Start testing by using the command line:
+##### 9. Start testing by using the command line:
  
 	./darknet detector test path_to/yolov3/cfg/obj.data path_to/yolov3/cfg/yolov3.cfg path_to/yolov3/backup/yolov3_final.weights path_to/yolov3/test/test_img.jpg
 
