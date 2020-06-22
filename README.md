@@ -204,12 +204,11 @@ __Training YOlOv3:__
 	DEBUG=0
     
     make
-##### 0. Create folder yolov3    
+##### 0. Create folder for yolov3    
     mkdir yolov3
     cd yolov3
     mkdir JPEGImages labels backup cfg 
 
-####__yolov3__
 
 __├── [JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) <br>__
 │   ├── object-00001.jpg <br>
