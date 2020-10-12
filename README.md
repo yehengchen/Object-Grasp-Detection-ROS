@@ -1,4 +1,4 @@
-# YOLOv3-ROS
+# Object-Grasp-Detection-ROS
 
 ## Development Environment
 
